@@ -1,16 +1,18 @@
+
 ### Problem statement
-It takes too long and is too easy to make mistakes when manually calculating grades and creating report cards. I built this to make grading faster and more accurate by automating the calculations and report generation.
+I wanted a tool to quickly manage student data and keep track of all their marks in a structured way. Manually listing marks can be complicated. This program solves that by automating the basic storing, searching, and updating of these essential academic records.
 
 ### Scope of the project
-* **What it does:** It manages student records and their marks for a set number of subjects. It performs calculations and prints a final report.
-* **What it doesn't do:** It is strictly a **command-line application**, and it saves data only to a local file.
+* **What it does:** It handles all basic record keeping (adding, searching, modifying, and deleting student details) for 7 fixed subjects (Hindi, English, Maths, Physics, Chemistry, Computer Sci., and Physical Edu.).
+* **What it doesn't do:** **It does not currently calculate Total Marks, Percentage, or Final Grade.** That is a planned feature for a later update.
+* **Format:** It is a command-line application only.
 
 ### Target users
-This tool is for **teachers or teaching assistants** who need a quick and straightforward way to manage grades for a single class or small group of students.
+This tool is for **teachers or teaching assistants** who need a simple, fast, and stable way to manage and look up marks for students in their class.
 
 ### High-level features
-My implementation focused on making the code clean and reliable.
+My design focused on two things: clean code and reliable input.
 
-1.  **Clean Structure (Modularity):** I kept the code organized by separating different jobs (like saving data versus calculating grades) into different parts. This makes it easier to manage and update.
-2.  **Reliability:** I added specific checks to the code to prevent crashes. If a user types a wrong value (like a letter instead of a number for a mark), the program handles the mistake and asks them to fix it, instead of stopping completely.
-3.  **Simple Design:** I used basic Object-Oriented Programming (OOP) to create a "Student" object in the code to keep all of a student's information (ID, name, and marks) organized together.
+1.  **Clean Structure (Modularity):** I kept the code organized by putting each main job (like `add`, `search`, `modify`) into its own function. This makes the code very easy to read and manage, which is a key requirement for a student project.
+2.  **Reliability:** This was very important. I added specific safety checks (`try-except`) every time a user inputs a Roll Number or Marks. If a user types something wrong (like a letter instead of a number), the program catches the mistake and asks them to fix it, instead of crashing.
+3.  **Simple Data Handling:** I used the standard Python `pickle` module. This makes saving and loading the student data (which is stored as simple Python dictionaries) extremely easy and secure.
