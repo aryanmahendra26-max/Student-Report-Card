@@ -4,7 +4,7 @@
 Student Report Card Manager
 
 ### Overview of the project
-This is a small **Python program** that runs in the command line. I built it to manage a class roster and all the marks they get in their subjects. It uses a built-in Python tool (`pickle`) to save and load student data (names, roll numbers, and marks) to a local file, so all the records are stored safely.
+This is a small **Python program** that runs in the command line in python. I built it to manage a class roster and all the marks they get in their subjects. It uses a built-in Python tool (`pickle`) to save and load student data (names, roll numbers, and marks) to a local file, so all the records are stored safely.
 
 ### Features
 The program is focused on basic record keeping and retrieval:
