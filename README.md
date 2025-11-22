@@ -42,6 +42,8 @@ To test the program, follow the main menu options (1-6):
 2.  **Test Reliability:** Try typing letters (e.g., "hello") when the program asks for a Roll Number or Marks in the **ADD** or **SEARCH** options. The program should show an error and let you try again.
 3.  **Test Deletion:** Use **ADD** to create a test record, and then use **DELETE** (Option 5) to remove it. Check **READ** again to confirm it's gone.
 
+### Screenshots 
+Screenshot 2025-11-23 002557.png
 
 
 
