@@ -41,6 +41,11 @@ To test the program, follow the main menu options (1-6):
 1.  **Test Saving:** Use **ADD** (Option 2) to put in a new record. Then select **Exit** (Option 6). Run the program again and use **READ** (Option 4) to check the record was saved correctly.
 2.  **Test Reliability:** Try typing letters (e.g., "hello") when the program asks for a Roll Number or Marks in the **ADD** or **SEARCH** options. The program should show an error and let you try again.
 3.  **Test Deletion:** Use **ADD** to create a test record, and then use **DELETE** (Option 5) to remove it. Check **READ** again to confirm it's gone.
+   
+###Screenshots:
+<img width="1470" height="967" alt="Screenshot 2025-11-23 002656" src="https://github.com/user-attachments/assets/c4c67812-0629-4f40-ab14-212c5ef851dd" />
+<img width="1468" height="967" alt="Screenshot 2025-11-23 002557" src="https://github.com/user-attachments/assets/eb4b7c9d-1f27-406f-8f29-58cc2b84bd46" />
+
 
 
 
